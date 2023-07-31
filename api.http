@@ -1,12 +1,12 @@
-GET http://localhost:3001/todo HTTP/1.1
+GET https://todo-list-backend-73bd.onrender.com HTTP/1.1
 Content-Type: application/json
 ###
-POST http://localhost:3001/todo HTTP/1.1
+POST https://todo-list-backend-73bd.onrender.com HTTP/1.1
 Content-Type: application/json
 
 ###
-PUT  http://localhost:3001/todo/1 HTTP/1.1
+PUT  https://todo-list-backend-73bd.onrender.com/1 HTTP/1.1
 Content-Type: application/json
 ###
-DELETE  http://localhost:3001/todo/1 HTTP/1.1
+DELETE  https://todo-list-backend-73bd.onrender.com/1 HTTP/1.1
 Content-Type: application/json
